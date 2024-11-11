@@ -1,0 +1,73 @@
+.buttonz {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rock:hover:active {
+  background-color: rgba(0, 128, 126, 0.825);
+}
+.paper:hover:active {
+  background-color: rgba(0, 128, 126, 0.825);
+}
+.scissor:hover:active {
+  background-color: rgba(0, 128, 126, 0.825);
+}
+section,
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+#userchoice,
+#compchoice {
+  font-size: 33px;
+}
+button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.scoring {
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.displayingscore {
+  margin-top: 3rem;
+}
+#overallresult {
+  text-align: center;
+  font-size: 33px;
+}
+button:hover:active {
+  background-color: black;
+  color: white;
+}
+.playerscore,
+.computerscore {
+  font-size: 44px;
+}
+@media ((width<=416px)) {
+  section,
+  .scoring,
+  .buttonz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
